@@ -297,7 +297,9 @@ public class RuntimeInstaller {
                     "-downloadPlatform",
                     "\(platform)",
                     "-buildVersion",
-                    "\(version)"
+                    "\(version)",
+                    "-architectureVariant",
+                    "arm64",
                 ]
 
                 let stdOutPipe = Pipe()
